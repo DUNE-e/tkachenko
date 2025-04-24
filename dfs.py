@@ -36,4 +36,4 @@ if __name__ == "__main__":
     # Пример 2: длина пути
     a, b = 2, 4
     length = dfs(graph, a, b)
-    print(f"Path length from {a} to {b}: {length}") 
+    print(f"Path length from {a} to {b}: {length}")
