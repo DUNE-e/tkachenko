@@ -8,7 +8,7 @@ def dfs(graph, start, end=None):
         raise ValueError(f"End vertex {end} not found in graph")
 
 """
-комментарии
+Comments
 """
     
     visited = set()
