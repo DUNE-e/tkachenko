@@ -1,5 +1,5 @@
 def dfs(graph, start, end=None):
-    # Проверка на корректность входных данных
+    # Проверка на корректность входных (новый комментарий) данных
     if not graph:
         raise ValueError("Graph cannot be empty")
     if start not in graph:
