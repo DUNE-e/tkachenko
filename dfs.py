@@ -11,7 +11,11 @@ def dfs(graph, start, end=None):
 Comments
 Комментарии новые добавленные,,,,,,,
 """
-    
+
+"""
+НОВЫЕ КОММЕНТЫ...
+"""
+
     visited = set()
     stack = [(start, 0)]  # (vertex, distance)
     traversal_order = []
