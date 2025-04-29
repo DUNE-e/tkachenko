@@ -6,6 +6,10 @@ def dfs(graph, start, end=None):
         raise ValueError(f"Start vertex {start} not found in graph")
     if end is not None and end not in graph:
         raise ValueError(f"End vertex {end} not found in graph")
+
+"""
+комментарии
+"""
     
     visited = set()
     stack = [(start, 0)]  # (vertex, distance)
