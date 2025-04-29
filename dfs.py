@@ -16,6 +16,9 @@ Comments
 НОВЫЕ КОММЕНТЫ...
 """
 
+"""
+ещё комментарии
+"""
     visited = set()
     stack = [(start, 0)]  # (vertex, distance)
     traversal_order = []
